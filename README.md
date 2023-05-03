@@ -5,7 +5,7 @@ This is a repository of projects, made only with HTML and CSS.
 
 ### Projects
 1.  
-2. Weather widget
+2. [Weather widget](https://github.com/MrRedu/css-projects/tree/main/weather-widget_css)
 
 
 ## Authors
