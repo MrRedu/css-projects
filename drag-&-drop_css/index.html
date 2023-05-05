@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <div class="upload-container">
+
+        <div class="title">Upload files</div>
+        <div class="description">
+            Upload the files you want share with your team
+        </div>
+
+        <div class="drag-drop">
+            <div class="icon">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" height="42" 
+                viewBox="0 96 960 960"
+                width="42">
+                <path d="M250 896q-86 0-148-62T40 686q0-78 49.5-137.5T217 477q20-97 94-158.5T482 257q113 0 189.5 81.5T748 534v24q72-2 122 46.5T920 727q0 69-50 119t-119 50H510q-24 0-42-18t-18-42V578l-83 83-43-43 156-156 156 156-43 43-83-83v258h241q45 0 77-32t32-77q0-45-32-77t-77-32h-63v-84q0-89-60.5-153T478 317q-89 0-150 64t-61 153h-19q-62 0-105 43.5T100 685q0 62 43.929 106.5Q187.857 836 250 836h140v60H250Zm230-290Z"/></svg>
+            </div>
+            <div class="">
+                Drag and Drop the files here <br> Or
+            </div>
+            <button class="btn btn-browse_file">Browse Files</button>
+        </div>
+
+        <div class="title-section">
+            Uploaded files
+        </div>
+
+        <div class="uploaded-files">
+            <div class="file">
+                <div class="icon">
+                    <img src="img/word.png" alt="">
+                </div>
+                <div class="title">
+                    <div class="name">
+                    Documento menos importante.doc
+                    </div>
+                    <div class="progress">
+                        <div class="progress-60"></div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button>X</button>
+                </div>
+            </div>
+
+            <div class="file">
+                <div class="icon">
+                    <img src="img/pdf.png" alt="">
+                </div>
+                <div class="title">
+                    <div class="name">Documento importante.pdf</div>
+                    <div class="size">60 kb</div>
+                </div>
+                <div class="actions">
+                    <button>X</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
