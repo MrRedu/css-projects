@@ -10,7 +10,8 @@ This is a repository of projects, made only with HTML and CSS.
 4. [Simple modal](https://github.com/MrRedu/css-projects/tree/main/simple-modal_css)
 5. [Slider](https://github.com/MrRedu/css-projects/tree/main/slider_css)
 6. [Twitter card](https://github.com/MrRedu/css-projects/tree/main/twitter-card_css)
-7. [Weather widget](https://github.com/MrRedu/css-projects/tree/main/weather-widget_css)
+7. [Vertical menu](https://github.com/MrRedu/css-projects/tree/main/vertical-menu_css)
+8. [Weather widget](https://github.com/MrRedu/css-projects/tree/main/weather-widget_css)
 
 
 ## Authors
