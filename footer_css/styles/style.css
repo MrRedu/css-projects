@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(215, 240, 255);
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    color: rgb(152,172,197);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer {
+    width: 100%;
+    min-height: 300px;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+
+    background-color: rgb(28, 63, 94);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+.logo {
+    min-width: 150px;
+    max-width: 300px;
+    height: auto;
+    max-height: 130px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+    padding: 10px 0 30px;
+
+    text-align: center;
+}
+.list {
+    line-height: 1.6;
+}
+.item:first-child{
+    color: #d1d1d1;
+    font-weight: bold;
+}
+
+.secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: 1px solid rgba(152,172,197,0.4);
+    
+    font-size: 14px;
+}
+.secondary .icons{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    font-size: 24px;
+}
+.secondary .text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 0 20px;
+}
+
+@media screen and (min-width:450px) {
+    .list-container {
+        flex-direction: row;
+        text-align: start;
+    }
+    .secondary {
+        align-items: start;
+    }
+}
+@media screen and (min-width:650px) {
+    .footer {
+        padding: 20px;
+    }
+    .principal {
+        gap: 20px;
+        flex-direction: row;
+    }
+    .secondary {
+        flex-direction: row-reverse;
+        padding: 20px 0 0;
+
+        justify-content: space-between;
+    }
+    .secondary .icons{
+        padding: 0;
+    }
+}
