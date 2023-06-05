@@ -1,0 +1,102 @@
+body {
+    background-color: #282828;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    gap: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+
+    perspective: 1000px; 
+}
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.321s ease-in-out;
+    transform-style: preserve-3d;     
+}
+
+.card__front {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 222, 222, 1);
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card__front img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card__front .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+    padding: 40px 30px;
+}
+.card__front .footer h2, .card__back h2 {
+    font-size: 24px;
+}
+.card__front .footer button {
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+.card__front .footer button i {
+   font-size: 36px;
+}
+
+.card__front, 
+.card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden; 
+}
+
+.card__back {
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    transform: rotateY(180deg);
+
+    padding: 40px 30px;
+    color: white;
+}
+.card:nth-child(1) .card__back {
+    background-image: url(../images/image-1.jpg);
+}
+.card:nth-child(2) .card__back {
+    background-image: url(../images/image-2.jpg);
+}
+.card:nth-child(3) .card__back {
+    background-image: url(../images/image-3.jpg);
+}
+
+.card__back h2::selection, p::selection {
+    background: rgba(0, 0, 0, 0.6);
+}
+.card__back h2 {
+    line-height: 1.6;
+} 
+.card__back .paragraphs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
