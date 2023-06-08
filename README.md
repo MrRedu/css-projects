@@ -1,6 +1,6 @@
 # Projects with CSS
-This is a repository of projects, made only with HTML and CSS.
-(Some projects have demonstration videos)
+This is a repository of projects, made only with HTML and CSS. <br>
+*(Some projects have demonstration videos)*
 
 
 ### Projects
