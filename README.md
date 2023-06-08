@@ -1,7 +1,7 @@
 # Projects with CSS
 This is a repository of projects, made only with HTML and CSS.
+(Some projects have demonstration videos)
 
-<br>
 
 ### Projects
 1. [Cards (Responsive Grid)](https://github.com/MrRedu/css-projects/tree/main/cards-responsive-grid_css)
