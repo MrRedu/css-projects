@@ -13,12 +13,13 @@ This is a repository of projects, made only with HTML and CSS. <br>
 8. [Form login](https://github.com/MrRedu/css-projects/tree/main/form-login_css)
 9. [Price table](https://github.com/MrRedu/css-projects/tree/main/price-table_css)
 10. [Profile cards](https://github.com/MrRedu/css-projects/tree/main/profile-cards_css)
-11. [Simple modal](https://github.com/MrRedu/css-projects/tree/main/simple-modal_css)
-12. [Slider](https://github.com/MrRedu/css-projects/tree/main/slider_css)
-13. [Table](https://github.com/MrRedu/css-projects/tree/main/table_css)
-14. [Twitter card](https://github.com/MrRedu/css-projects/tree/main/twitter-card_css)
-15. [Vertical menu](https://github.com/MrRedu/css-projects/tree/main/vertical-menu_css)
-16. [Weather widget](https://github.com/MrRedu/css-projects/tree/main/weather-widget_css)
+11. [Search bar](https://github.com/MrRedu/css-projects/tree/main/search-bar_css)
+12. [Simple modal](https://github.com/MrRedu/css-projects/tree/main/simple-modal_css)
+13. [Slider](https://github.com/MrRedu/css-projects/tree/main/slider_css)
+14. [Table](https://github.com/MrRedu/css-projects/tree/main/table_css)
+15. [Twitter card](https://github.com/MrRedu/css-projects/tree/main/twitter-card_css)
+16. [Vertical menu](https://github.com/MrRedu/css-projects/tree/main/vertical-menu_css)
+17. [Weather widget](https://github.com/MrRedu/css-projects/tree/main/weather-widget_css)
 
 
 ## Authors
